@@ -1,0 +1,67 @@
+@import 'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    
+}
+
+
+header{
+    background-color: var(--dark);
+    height: 650px;
+    clip-path:polygon( 0 0,100% 0,100% 100%,75% 85%,0 100%);
+   
+}
+.container{
+    max-width: 1152px;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+header nav .Left a{
+    color: var(--pure);
+    text-decoration: none;
+
+    margin-right: 2rem;
+    text-transform: uppercase;
+    
+    
+}
+header nav .Left a:hover{
+    color: var(--primary);
+}
+
+header nav .Left .Logo{
+    margin-right: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.MyProfile .Right{
+    color: var(--pure);
+    margin-left: 3rem;
+    margin-bottom: 2.6rem;
+}
+.MyProfile .Right h4{
+    color: var(--primary);
+}
+.MyProfile .Right h1 span{
+    color: var(--primary);
+}
